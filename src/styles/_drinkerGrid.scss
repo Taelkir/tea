@@ -1,0 +1,22 @@
+
+// This is applied to each drinker
+.drinker-grid {
+  display: grid;
+  grid-template-rows: 192px;
+  grid-template-columns: 192px auto 192px;
+  border-bottom: 1px solid $less-saturated-white;
+}
+
+.drinker-image {
+
+}
+
+.drinker-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.drinker-colour {
+
+}

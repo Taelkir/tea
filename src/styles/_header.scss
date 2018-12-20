@@ -1,0 +1,15 @@
+.App-logo {
+  height: 10vmin;
+}
+
+.App-header {
+  min-height: 10vh;
+  font-size: 2em;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: calc(10px + 2vmin);
+  color: $less-saturated-black;
+  border-bottom: 2px dashed $less-saturated-white;
+}
