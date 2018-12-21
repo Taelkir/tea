@@ -37,14 +37,13 @@ class Drinker extends Component {
 
     // Decide whether to show the colour picker or not
     let colourPicker;
-
     if (this.state.colourPickerActive) {
       colourPicker = <ColourPicker updateColour = { updateColour } index = { index } colourPickerHide = { this.handleColourPickerHide } />
     } else {
       colourPicker = <button onClick={ this.handleColourPickerShow } className="show-colour-picker">Pick new colour</button>
     }
 
-    // Aaand render the damn thing
+    // Aaand render
     return (
       <li className="drinker-grid">
 

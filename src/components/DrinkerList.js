@@ -18,9 +18,8 @@ class DrinkerList extends Component {
                 colourHex = { drinker.colourHex }
                 mugshot = { drinker.imageSrc }
                 updateColour = { updateColour }
-                id = { drinker.id }
-                key = { drinker.id.toString() }
                 index = { index }
+                key = { index.toString() }
               />
             )}
           </ul>

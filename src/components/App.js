@@ -11,44 +11,43 @@ class App extends Component {
         drink: "tea",
         colourHex: "#BC7B3B",
         imageSrc: "https://media.alliescomputing.com/media/staff/tom.jpg",
-        id: 1
       },
       {
         name: "Jacob",
         drink: "coffee",
         colourHex: "#826857",
         imageSrc: "https://media.alliescomputing.com/media/staff/jacob.jpg",
-        id: 2
       },
       {
         name: "James",
         drink: "tea",
         colourHex: "#f9d79f",
         imageSrc: "https://media.alliescomputing.com/media/staff/james_fox.jpg",
-        id: 3
       },
       {
         name: "Garrie",
         drink: "tea",
         colourHex: "#44190B",
         imageSrc: "https://media.alliescomputing.com/media/staff/garrie.jpg",
-        id: 4
       },
       {
         name: "Adam",
         drink: "coffee",
         colourHex: "#c66b57",
         imageSrc: "https://media.alliescomputing.com/media/staff/adam.jpg",
-        id: 5
       },
       {
         name: "Sarah",
         drink: "Fruit Tea",
         colourHex: "#C71585",
         imageSrc: "https://media.alliescomputing.com/media/staff/sarah.jpg",
-        id: 6
+      },
+      {
+        name: "Rachel",
+        drink: "Decaf Tea",
+        colourHex: "#000000",
+        imageSrc: "https://media.alliescomputing.com/media/staff/rachel.jpg",
       }
-
     ]
   };
 
