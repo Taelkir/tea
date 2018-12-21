@@ -40,7 +40,15 @@ class App extends Component {
         colourHex: "#c66b57",
         imageSrc: "https://media.alliescomputing.com/media/staff/adam.jpg",
         id: 5
+      },
+      {
+        name: "Sarah",
+        drink: "Fruit Tea",
+        colourHex: "#C71585",
+        imageSrc: "https://media.alliescomputing.com/media/staff/sarah.jpg",
+        id: 6
       }
+
     ]
   };
 
@@ -52,10 +60,6 @@ class App extends Component {
       }
     });
   }
-
-
-
-
 
   render() {
     return (

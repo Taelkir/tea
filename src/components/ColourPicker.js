@@ -5,6 +5,7 @@ class ColourPicker extends Component {
 
     const {
       updateColour,
+      colourPickerHide,
       index
     } = this.props;
 
@@ -14,6 +15,7 @@ class ColourPicker extends Component {
     let handleNewColour = (e) => {
       e.preventDefault();
       updateColour(drinkerColourInput.current.value, index);
+      colourPickerHide();
       e.currentTarget.reset();
     }
 
@@ -23,6 +25,7 @@ class ColourPicker extends Component {
       onSubmit={ handleNewColour }>
       <input
       ref={ drinkerColourInput }
+      autoFocus // moves the cursor into the input when it renders
       type="text"
       placeholder="e.g. #f8f8f8" />
       <button type="submit">Change Colour</button>

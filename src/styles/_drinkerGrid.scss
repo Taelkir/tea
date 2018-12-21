@@ -1,14 +1,17 @@
 
 // This is applied to each drinker
+$row-height: 175px;
+
 .drinker-grid {
   display: grid;
-  grid-template-rows: 192px;
-  grid-template-columns: 192px auto 192px;
+  grid-template-rows: $row-height;
+  grid-template-columns: $row-height auto $row-height;
   border-bottom: 1px solid $less-saturated-white;
 }
 
 .drinker-image {
-
+  height: $row-height;
+  width: $row-height;
 }
 
 .drinker-info {
@@ -19,6 +22,7 @@
 
 .drinker-colour {
   display: flex;
+  border-radius: 15px;
 }
 
 .change-colour-form {
@@ -27,4 +31,18 @@
   justify-content: center;
   margin: auto;
   width: 80%;
+}
+
+.drinker-colour:hover {
+  box-shadow: inset 0 0 0 2px $less-saturated-black;
+}
+
+.drinker-colour:hover button.show-colour-picker {
+  display: flex;
+}
+
+button.show-colour-picker {
+  height: 30px;
+  margin: auto;
+  display: none;
 }
