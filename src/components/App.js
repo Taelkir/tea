@@ -44,13 +44,29 @@ class App extends Component {
     ]
   };
 
+  // Is passed info up from the drinker component when the form inside it is submitted
+  handleUpdateColour = (newColour, index) => {
+    this.setState( prevState => {
+      return {
+        newestColour: prevState.drinkers[index].colourHex = newColour
+      }
+    });
+  }
+
+
+
+
+
   render() {
     return (
       <div>
-        <Header />
+        <Header
+          numOfStaff = { this.state.drinkers.length }
+        />
         <DrinkerList
           drinkers = { this.state.drinkers }
-         />
+          updateColour = { this.handleUpdateColour }
+        />
       </div>
     );
   }

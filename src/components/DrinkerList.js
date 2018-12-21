@@ -6,7 +6,7 @@ class DrinkerList extends Component {
 
   render() {
 
-    const { drinkers } = this.props;
+    const { drinkers, updateColour } = this.props;
 
     return (
         <main>
@@ -16,7 +16,8 @@ class DrinkerList extends Component {
                 name = { drinker.name }
                 drink = { drinker.drink }
                 colourHex = { drinker.colourHex }
-                mugshot = {drinker.imageSrc }
+                mugshot = { drinker.imageSrc }
+                updateColour = { updateColour }
                 id = { drinker.id }
                 key = { drinker.id.toString() }
                 index = { index }

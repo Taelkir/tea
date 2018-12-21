@@ -18,5 +18,13 @@
 }
 
 .drinker-colour {
+  display: flex;
+}
 
+.change-colour-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  width: 80%;
 }

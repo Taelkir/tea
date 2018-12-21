@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
+import ColourPicker from "./ColourPicker"
 
 class Drinker extends Component {
+
 
   render() {
 
@@ -9,25 +11,30 @@ class Drinker extends Component {
       drink,
       colourHex,
       mugshot,
+      updateColour,
+      index
     } = this.props;
-
-    const cssDrinkerColour = {
-      backgroundColor: colourHex
-    };
 
     return (
       <li className="drinker-grid">
+
         <img
+          className="drinker-image"
           src = { mugshot }
-          alt = { name }
-          className="drinker-image"/>
+          alt = { name }/>
+
         <p
           className="drinker-info">
-          {drink.charAt(0).toUpperCase() + drink.slice(1)}
-        </p>
+          {drink.charAt(0).toUpperCase() + drink.slice(1)}</p>
+
         <div
           className="drinker-colour"
-          style={cssDrinkerColour}>
+          style={{backgroundColor: colourHex}}>
+          <ColourPicker
+            updateColour = { updateColour }
+            index = { index }
+
+          />
         </div>
       </li>
     );
