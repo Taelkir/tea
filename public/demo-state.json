@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Tom",
+    "drink": "tea",
+    "colourHex": "#BC7B3B",
+    "imageSrc": "https://media.alliescomputing.com/media/staff/tom.jpg"
+  },
+  {
+    "name": "Sarah",
+    "drink": "Fruit Tea",
+    "colourHex": "#C71585",
+    "imageSrc": "https://media.alliescomputing.com/media/staff/sarah.jpg"
+  },
+  {
+    "name": "James",
+    "drink": "tea",
+    "colourHex": "#f9d79f",
+    "imageSrc": "https://media.alliescomputing.com/media/staff/james_fox.jpg"
+  },
+  {
+    "name": "Jacob",
+    "drink": "coffee",
+    "colourHex": "#826857",
+    "imageSrc": "https://media.alliescomputing.com/media/staff/jacob.jpg"
+  },
+  {
+    "name": "Garrie",
+    "drink": "tea",
+    "colourHex": "#44190B",
+    "imageSrc": "https://media.alliescomputing.com/media/staff/garrie.jpg"
+  },
+  {
+    "name": "Rachel",
+    "drink": "Decaf Tea",
+    "colourHex": "#d2b28c",
+    "imageSrc": "https://media.alliescomputing.com/media/staff/rachel.jpg"
+  },
+  {
+    "name": "Adam",
+    "drink": "coffee",
+    "colourHex": "#c66b57",
+    "imageSrc": "https://media.alliescomputing.com/media/staff/adam.jpg"
+  }
+]

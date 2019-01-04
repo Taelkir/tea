@@ -8,8 +8,10 @@ class Header extends Component {
 
     return (
         <header className="App-header">
-          <img src={tea} className="App-logo" alt="logo" />
-          <small>Now serving {numOfStaff} hot drinks</small>
+          <div className="App-logo">
+            <img src={tea} alt="logo" />
+          </div>
+          <small>Now serving {numOfStaff} hot drink{numOfStaff === 1 ? "" : "s" }</small>
           <h1>Tea</h1>
         </header>
     );

@@ -1,5 +1,13 @@
+@import "variables";
+
 .App-logo {
-  height: 10vmin;
+  height: calc($row-height - 50px);
+  width: $row-height;
+  display: flex;
+  background-color: rgba(0,0,0,0.0);
+  img {
+    margin: 0 auto;
+  }
 }
 
 .App-header {
